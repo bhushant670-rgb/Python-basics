@@ -20,4 +20,21 @@ def main():
   p=find_Simple_intrest(amt,r,t)
   print(f"Simple intrest is {p}")
 main()
+
+# Temperature conversion
+def find_temp(cel):
+ fahr=(9/5)*cel+32
+ return fahr
+def main():
+ cel=int(input("Enter temperature in celsius: ")
+ temp=find_temp(cel)
+ if temp>100:
+  print(f" Outside Temperature is {temp} degree fahrenheit")
+  print("Too hot outside")
+ elif temp<50:
+  print(f"Outside Temperature is {temp} degree farhenheit")
+  print("Pleasant Outside")
+main()
+ 
+ 
   
